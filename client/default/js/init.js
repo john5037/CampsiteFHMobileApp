@@ -29,20 +29,7 @@ $fh.ready(function() {
   };
   
      
-    var res = $fh.db({
-  "act": "create",
-  "type": "myFirstEntity",
-  "fields": {
-    "firstName": "Kamal",
-    "lastName": "Seven",
-    "address1": "22 Blogger Lane",
-    "address2": "Bloggsville",
-    "country": "Bloggland",
-    "phone": "555-123456"
-  }
-});
-
-  document.getElementById('content2').innerHTML = "<p>localconfig" + JSON.stringify(res) + "</p>";
+  //document.getElementById('content2').innerHTML = "<p>localconfig" + JSON.stringify(res) + "</p>";
  
 });
 

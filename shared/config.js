@@ -21,4 +21,19 @@ var config = {
   param2 : true
 };
 
-exports.config = config;
+
+    var res = $fh.db({
+  "act": "create",
+  "type": "myFirstEntity",
+  "fields": {
+    "firstName": "Kamal",
+    "lastName": "Seven",
+    "address1": "22 Blogger Lane",
+    "address2": "Bloggsville",
+    "country": "Bloggland",
+    "phone": "555-123456"
+  }
+});
+
+
+exports.config = res;
