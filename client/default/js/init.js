@@ -38,7 +38,7 @@ $fh.ready(function() {
   }
 });
 
-  document.getElementById('content').innerHTML = "<p>" + JSON.stringify(res) + "</p>";
+  document.getElementById('content').innerHTML = "<p>localconfig" + JSON.stringify(res) + "</p>";
     
     
   };
