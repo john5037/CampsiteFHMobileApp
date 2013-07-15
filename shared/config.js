@@ -16,10 +16,10 @@ to be bundled with the app when it is built, but also allowing the latest versio
 retrieved by the app from the cloud on start up.
 */
 
-var config = {
+/*var config = {
   param1 : 'Initial value',
   param2 : true
-};
+};*/
 
 
     var res = $fh.db({
