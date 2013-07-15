@@ -42,7 +42,7 @@ $fh.ready(function() {
   }
 });
 
-  document.getElementById('content').innerHTML = "<p>localconfig" + JSON.stringify(res) + "</p>";
+  document.getElementById('content2').innerHTML = "<p>localconfig" + JSON.stringify(res) + "</p>";
  
 });
 
