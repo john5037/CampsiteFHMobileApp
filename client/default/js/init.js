@@ -25,6 +25,10 @@ $fh.ready(function() {
       }
     );
     
+    
+  };
+  
+     
     var res = $fh.db({
   "act": "create",
   "type": "myFirstEntity",
@@ -39,8 +43,6 @@ $fh.ready(function() {
 });
 
   document.getElementById('content').innerHTML = "<p>localconfig" + JSON.stringify(res) + "</p>";
-    
-    
-  };
+ 
 });
 
