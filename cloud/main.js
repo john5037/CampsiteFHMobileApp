@@ -1,4 +1,13 @@
 var util = require('util');
+var mysql = require('mysql');
+
+var connection = mysql.createConnection({
+host : 'cloudcamp.cfp6lld7igql.us-east-1.rds.amazonaws.com',
+user : 'dave',
+password : 'deepblue',
+database : 'campsite'
+});
+ 
 /* main.js
  * All calls here are publicly exposed as REST API endpoints.
  * - all parameters must be passed in a single JSON paramater.

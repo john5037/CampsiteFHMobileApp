@@ -16,24 +16,9 @@ to be bundled with the app when it is built, but also allowing the latest versio
 retrieved by the app from the cloud on start up.
 */
 
-/*var config = {
+var config = {
   param1 : 'Initial value',
   param2 : true
-};*/
+};
 
-
-    var res = $fh.db({
-  "act": "create",
-  "type": "myFirstEntity",
-  "fields": {
-    "firstName": "Kamal",
-    "lastName": "Seven",
-    "address1": "22 Blogger Lane",
-    "address2": "Bloggsville",
-    "country": "Bloggland",
-    "phone": "555-123456"
-  }
-});
-
-
-exports.config = res;
+exports.config = config;
